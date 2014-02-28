@@ -1,0 +1,158 @@
+@charset "utf-8";
+/**/
+html {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+input {
+    border: 1px solid #4195fc; /* blue border */
+    height: 25px;
+    width: 204px;
+    /* other CSS styles */
+
+    /* round the corners */
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+textarea {
+    border: 1px solid #4195fc; /* blue border */
+    height: 100px;
+    width: 200px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* other CSS styles */
+
+    /* round the corners */
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+ 
+/*!
+ * important
+ */
+body {
+  margin: 0;
+  /**/
+  padding: 0;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #f2f5f7;
+}
+
+.wrapper{
+  min-height: 100%;
+  position: relative;
+}
+
+.box{
+  width:50%;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color:#4195fc;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color:#4195fc;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+a{
+  color:#4195fc;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#939393;
+  text-decoration:underline;
+}
+
+a:visited{
+  color:#484c4d;
+  text-decoration:none;
+}
+
+p.categories{
+  color:#808080;
+  font-size:80%;
+}
+hr{
+  width:70%;
+}
+/*!
+ * end of important
+ */
+ 
+
+.header{
+	width:100%;
+	background:#484c4d;
+	height:40px;
+}
+h1.header-text{
+  font-size:16px;
+  color:#8b979e;
+  font-family: 'Raleway', sans-serif;
+  font-weight:normal;
+  margin:0;
+  text-align: center;
+}
+
+
+.titlebox{
+	width:100%;
+	height:120px;
+	background:#4eabe1;
+	border-top:1px solid #5bc0fa;
+}
+
+h1.maintitle{
+	text-align:center;
+		font-family: 'Raleway', sans-serif;
+		color:#fff;
+		font-size:32px;
+		line-height:3;
+		font-weight:300;
+    background-color:#4eabe1;
+}
+
+h2.maintitle{
+  text-align:center;
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+    font-size:22px;
+    line-height:2;
+    font-weight:300;
+    background-color:#4eabe1;
+}
+
+.footer{
+	width:100%;
+	background:#e0e7eb;
+	height:40px;
+	position: absolute, 0px;
+	/*bottom: 0px;*/
+
+}
+
+h1.footer-text{
+	font-size:16px;
+	color:#8b979e;
+	font-family: 'Raleway', sans-serif;
+	font-weight:normal;
+	margin:0;
+  text-align: center;
+}
+

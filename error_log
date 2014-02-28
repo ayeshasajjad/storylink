@@ -1,0 +1,3 @@
+[06-Feb-2014 15:59:34 America/New_York] PHP Parse error:  syntax error, unexpected '"></textarea> ' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ccit1580/public_html/cct460/application/views/admin_update.php on line 13
+[06-Feb-2014 16:23:03 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::update_post() in /home/ccit1580/public_html/cct460/application/controllers/Admin.php on line 38
+[06-Feb-2014 16:23:43 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::update_post() in /home/ccit1580/public_html/cct460/application/controllers/Admin.php on line 38
